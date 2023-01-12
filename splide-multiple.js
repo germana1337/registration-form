@@ -76,9 +76,12 @@ formRegistration.addEventListener("submit", function (event) {
   }
 
   // Clear Inputs
-  if (usernameField.length >= 4 && password1 === password2 && agree && age) {
-    errorContainer.innerHTML = " ";
+  if (usernameField.length >= 4 && password1 === password2 && agree ) {
+    errorContainer.innerHTML = "გილოცავთ თქვენ წარმატებით გაიარეთ ავტორიზაცია"; 
   }
-
   console.log(errors);
+
+  errorContainer.style.marginTop = '20px'
+  errorContainer.style.color = 'red';
+
 });

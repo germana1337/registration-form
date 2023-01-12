@@ -42,4 +42,10 @@ h1{
   }
  
 
-  
+  .error-container{
+    margin-top: 20px;
+  }
+
+  .error-container.success {
+    color: green;
+}
