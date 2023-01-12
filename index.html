@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="splide.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="splide.min.js"></script>
+
+    <title>carousel</title>
+</head>
+
+<body>
+    <h1>SPLIDE JS</h1>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+
+                <li class="splide__slide"><img src="imgs/pic-01.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-02.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-01.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-02.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-01.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-02.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-01.jpeg" alt=""></li>
+                <li class="splide__slide"><img src="imgs/pic-02.jpeg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+    <section class="registration-form">
+        <form action="" id="form-registration">
+            <div>
+                <label for="f-name">სახელი</label>
+                <br>
+                <input type="text" name="username" id="f-name">
+            </div>
+            <div>
+                <br>
+                <label for="pass1">პაროლი</label>
+                <br>
+                <input type="password" name="mypass" id="pass1">
+            </div>
+            <div>
+                <br>
+                <label for="pass2">გაიმეორეთ პაროლი</label>
+                <br>
+
+                <input type="password" name="mypass" id="pass2">
+            </div>
+            <div>
+                <br>
+                <br>
+                <span>თქვენი საშუალო ასაკი</span>
+                <br>
+                <br>
+                <div>
+                    <input type="radio" name="age1" id="age1">
+                    <label for="age1">18-40</label>
+                    <input type="radio" name="age2" id="age2">
+                    <label for="age2">40-60</label>
+
+                </div>
+
+                <div>
+                    <br>
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">ვეთანხმები წესებს და პირობებს</label>
+                </div>
+                <div>
+                    <br>
+                    <button type="submit">ავტორიზაცია</button>
+                </div>
+
+                <div id="error-container"></div>
+
+
+        </form>
+    </section>
+
+
+    <script src="splide-multiple.js"></script>
+</body>
+
+</html>
