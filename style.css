@@ -9,21 +9,14 @@
 body{
     background-color: rgb(241, 210, 169)
 }
-.splide__pagination {
-    counter-reset: pagination-num;
-  }
 
-  .splide__pagination__page:before {
-    counter-increment: pagination-num;
-    content: counter( pagination-num );
-  }
-
-  
   
   .splide__slide img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     margin-top: 30px;
+    object-fit: cover;
+    padding: 10px;
   }
 
 h1{
@@ -45,6 +38,7 @@ h1{
     padding: 20px;
     font-size: 12px;
     font-weight: 600;
+
   }
  
 
